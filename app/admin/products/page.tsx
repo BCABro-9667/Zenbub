@@ -192,7 +192,7 @@ export default function AdminProductsPage() {
   const handleOpenModal = () => {
     const draft = loadFormDraft(FORM_STORAGE_KEYS.PRODUCT_FORM);
     if (draft) {
-      const shouldRestore = window.confirm('Found unsaved changes. Would you like to restore them?');
+      const shouldRestore = window.confirm("Found unsaved changes. Would you like to restore them?");
       if (shouldRestore) {
         setFormData(draft);
       }

@@ -135,7 +135,7 @@ export default function Testimonials() {
                       </svg>
                     ))}
                   </div>
-                  <p className="text-gray-700 mb-4 text-base leading-relaxed text-center italic">"{testimonial.text}"</p>
+                  <p className="text-gray-700 mb-4 text-base leading-relaxed text-center italic">&quot;{testimonial.text}&quot;</p>
                   <p className="font-semibold text-gray-900 text-center mt-auto">{testimonial.name}</p>
                 </div>
               </SwiperSlide>
